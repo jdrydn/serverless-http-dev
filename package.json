@@ -1,0 +1,46 @@
+{
+  "name": "serverless-http-dev",
+  "version": "1.0.0",
+  "description": "Run serverless-http as an independent server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "serverless-http-dev": "./bin.js"
+  },
+  "repository": "https://github.com/jdrydn/serverless-http-dev",
+  "bugs": "https://github.com/jdrydn/serverless-http-dev/issues",
+  "author": "jdrydn <james@jdrydn.com> (https://jdrydn.com)",
+  "license": "MIT",
+  "files": [
+    "./bin.js",
+    "./server.js"
+  ],
+  "keywords": [
+    "serverless",
+    "http",
+    "dev",
+    "server"
+  ],
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-morgan": "^1.0.1",
+    "uuid": "^8.3.2",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint": "^8.16.0",
+    "eslint-plugin-mocha": "^10.0.5",
+    "mocha": "^10.0.0",
+    "nock": "^13.2.4",
+    "nyc": "^15.1.0",
+    "rewire": "^6.0.0",
+    "serverless-http": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 12.0",
+    "npm": ">= 6.0"
+  }
+}
